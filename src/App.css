@@ -32,67 +32,26 @@
 }
 
 #Dictionary {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
   height: 100%;
   width: 50%;
-  display: flex;
 }
 
 #Insert {
-  /* border: 2px solid #393E41; */
   height: 100%;
   width: 50%;
 }
 
-#DictionaryContainer {
-  width: 100%;
-  height: 90%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#DictionaryInput {
-  width: 86%;
-  height: 86%;
-  resize: none;
-  margin: auto;
-  padding: 2%;
-  border-radius: 15px;
-  background-color: #E5E5E5;
-}
-
-#DictionaryControll {
-  height: 10%;
-  width: 100%;
-  min-height: 45px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-#DictionaryControllContainer {
-  width: 90%;
-  height: 90%;
-  margin: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-
-}
-
-
-.ControllButton {
+.ControlButton {
   border-radius: 10px;
   width: 10vw;
   height: 5vh;
   background-color: #E5E5E5;
+}
+
+.ControlButton:active {
+  border-color: #476C9B;
+  color: #476C9B;
+  transform: scale(0.9, 0.9);
 }
 
 .SolidBorder {
@@ -101,7 +60,12 @@
 
 .SolidBorder:focus {
   outline: none !important;
-  border: 2px solid #393E41;
+}
+
+
+.SolidBorderFocus:focus {
+  outline: none !important;
+  border: 2px solid #476C9B;
 }
 
 .SolidBorderInside {
@@ -113,12 +77,19 @@
 
 .SolidBorderInside:focus {
   outline: none !important;
+}
+
+.SolidBorderInsideFocus:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #476C9B;
+  -moz-box-shadow:inset 0px 0px 0px 2px #476C9B;
+  box-shadow:inset 0px 0px 0px 2px #476C9B;
+  outline: none !important;
   border: 0px !important;
 }
 
 
 ::-webkit-scrollbar {
-  width: 3%;
+  width: 2.4%;
 }
 
 ::-webkit-scrollbar-corner {
@@ -138,10 +109,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.selected {
-  background-color: red;
 }
 
 html, body, #root, .App {

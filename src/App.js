@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import DictionaryComponent from './components/DictionaryComponent';
 import React from 'react';
 
 
@@ -24,16 +24,7 @@ class App extends React.Component {
       <div className="App">
         <div id="Combiner">
           <div id="Dictionary">
-            <div id="DictionaryContainer">
-              <textarea id="DictionaryInput" className="SolidBorderInside"/>
-            </div>
-            <div id="DictionaryControll">
-              <div id="DictionaryControllContainer">
-                <button id="DictionaryValidate" className="ControllButton SolidBorder">
-                  Validate
-                </button>
-              </div>
-            </div>
+            <DictionaryComponent/>
           </div>
           <div id="Insert">
           </div>
