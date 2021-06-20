@@ -1,4 +1,5 @@
 import React from 'react';
+import Editor from './Editor';
 import './css/DictionaryComponent.css';
 
 class DictionaryComponent extends React.Component {
@@ -6,7 +7,7 @@ class DictionaryComponent extends React.Component {
     return (
       <div className="DictionaryComponent">
         <div id="DictionaryContainer">
-          <textarea id="DictionaryInput" className="SolidBorderInside SolidBorderInsideFocus"/>
+          <Editor placeholder="Dictionary data" className="SolidBorderInside SolidBorderInsideFocus"/>
         </div>
         <div id="DictionaryControl">
           <div id="DictionaryControlContainer">

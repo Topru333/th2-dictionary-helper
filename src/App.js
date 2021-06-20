@@ -1,7 +1,7 @@
 import './App.css';
-import DictionaryComponent from './components/DictionaryComponent';
+import Dictionary from './components/DictionaryComponent';
+import Insert from './components/InsertComponent';
 import React from 'react';
-
 
 class App extends React.Component {
   state = {
@@ -23,10 +23,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id="Combiner">
-          <div id="Dictionary">
-            <DictionaryComponent/>
+          <div className="CombinerPart">
+            <Dictionary/>
           </div>
-          <div id="Insert">
+          <div className="CombinerPart">
+            <div id="InsertContainer">
+              <Insert/>
+            </div>
+            <div id="InfoContainer"></div>
           </div>
         </div>
       </div>
