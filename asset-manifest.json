@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/th2-dictionary-helper/static/css/main.106c5231.chunk.css",
-    "main.js": "/th2-dictionary-helper/static/js/main.01450e12.chunk.js",
-    "main.js.map": "/th2-dictionary-helper/static/js/main.01450e12.chunk.js.map",
+    "main.css": "/th2-dictionary-helper/static/css/main.0f85bf05.chunk.css",
+    "main.js": "/th2-dictionary-helper/static/js/main.2aaa306d.chunk.js",
+    "main.js.map": "/th2-dictionary-helper/static/js/main.2aaa306d.chunk.js.map",
     "runtime-main.js": "/th2-dictionary-helper/static/js/runtime-main.e28e7888.js",
     "runtime-main.js.map": "/th2-dictionary-helper/static/js/runtime-main.e28e7888.js.map",
-    "static/js/2.e321c357.chunk.js": "/th2-dictionary-helper/static/js/2.e321c357.chunk.js",
-    "static/js/2.e321c357.chunk.js.map": "/th2-dictionary-helper/static/js/2.e321c357.chunk.js.map",
+    "static/js/2.7467ce3a.chunk.js": "/th2-dictionary-helper/static/js/2.7467ce3a.chunk.js",
+    "static/js/2.7467ce3a.chunk.js.map": "/th2-dictionary-helper/static/js/2.7467ce3a.chunk.js.map",
     "index.html": "/th2-dictionary-helper/index.html",
-    "static/css/main.106c5231.chunk.css.map": "/th2-dictionary-helper/static/css/main.106c5231.chunk.css.map",
-    "static/js/2.e321c357.chunk.js.LICENSE.txt": "/th2-dictionary-helper/static/js/2.e321c357.chunk.js.LICENSE.txt"
+    "static/css/main.0f85bf05.chunk.css.map": "/th2-dictionary-helper/static/css/main.0f85bf05.chunk.css.map",
+    "static/js/2.7467ce3a.chunk.js.LICENSE.txt": "/th2-dictionary-helper/static/js/2.7467ce3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e28e7888.js",
-    "static/js/2.e321c357.chunk.js",
-    "static/css/main.106c5231.chunk.css",
-    "static/js/main.01450e12.chunk.js"
+    "static/js/2.7467ce3a.chunk.js",
+    "static/css/main.0f85bf05.chunk.css",
+    "static/js/main.2aaa306d.chunk.js"
   ]
 }
