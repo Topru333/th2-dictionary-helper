@@ -1,7 +1,9 @@
 import './App.css';
 import Dictionary from './components/DictionaryComponent';
-import Insert from './components/InsertComponent';
 import React from 'react';
+
+import Editor from './components/Editor';
+
 
 class App extends React.Component {
   state = {
@@ -21,16 +23,18 @@ class App extends React.Component {
   render() {
     const { cards, selected } = this.state;
     return (
-      <div className="App">
+      <div className="App ">
         <div id="Combiner">
           <div className="CombinerPart">
-            <Dictionary/>
+            <Dictionary id="leftDictionary"/>
           </div>
           <div className="CombinerPart">
-            <div id="InsertContainer">
-              <Insert/>
-            </div>
-            <div id="InfoContainer"></div>
+            <Dictionary id="rightDictionary"/>
+          </div>
+        </div>
+        <div id="log">
+          <div id="logContainer">
+            <Editor placeholder="Logs here" className="SolidBorderInside SolidBorderInsideFocus"/>
           </div>
         </div>
       </div>
